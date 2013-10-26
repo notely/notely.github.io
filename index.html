@@ -3,13 +3,14 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="chrome=1">
-	<title>Notely.github.io by notely</title>
+	<title>Notely - Annotate the web</title>
 
 	<!-- <link rel="stylesheet" href="stylesheets/styles.css"> -->
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.0.0/readable/bootstrap.min.css">
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootswatch/3.0.0/readable/bootstrap.min.css">
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
 	<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+	<link rel="stylesheet" href="stylesheets/styles.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -17,22 +18,73 @@
 	</head>
 	<body>
 		<div class="wrapper">
-			<header class="container">
-				<h1>Notely.github.io</h1>
-				<p></p>
-
-
-				<p class="view"><a href="https://github.com/notely">View My GitHub Profile</a></p>
-
+			<div class="navbar navbar-default navbar-fixed-top">
+				<div class="container">
+					<a class="brand"><img src="images/Logo-text.png" alt=""></a>
+				</div>
+			</div>
+			<header class="">
+				<div class="container">
+					<div class="col-lg-7">
+						<h1>Notely &mdash; Annotate the web</h1>
+						<p class="lead">Lorem ipsum Consequat dolore ea dolor fugiat voluptate in sit commodo ad voluptate nostrud labore labore.</p>
+						<p><a href="#" class="btn btn-lg btn-danger">Download Now</a></p>
+					</div>
+					<div class="col-lg-5">
+						<img src="http://placehold.it/1024x768" class="img-responsive hero-img" />
+					</div>
+				</div>
 			</header>
 			<section class="container">
-				<h3><a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+				<div class="row">
+					<div class="col-lg-12">
+						<h2>Some words from the creator</h2>
+						<blockquote>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+							<small>Someone famous in <cite title="Source Title">Source Title</cite></small>
+						</blockquote>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12">
+						<h2>Features</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<h4><i class="icomoon-quill"></i> Annotate any web page</h4>
+						<p>Lorem ipsum Ut dolor do adipisicing sit dolor dolor amet occaecat dolore quis labore do aute labore nisi labore sunt voluptate sunt in labore consequat labore sit consectetur minim veniam magna laborum nisi sed.</p>
+					</div>
+					<div class="col-lg-4">
+						<h4><i class="icomoon-eye"></i> Control visibility of notes</h4>
+						<p>Lorem ipsum Ut dolor do adipisicing sit dolor dolor amet occaecat dolore quis labore do aute labore nisi labore sunt voluptate sunt in labore consequat labore sit consectetur minim veniam magna laborum nisi sed.</p>
+					</div>
+					<div class="col-lg-4">
+						<h4><i class="icomoon-point-up"></i> Move note marker in place</h4>
+						<p>Lorem ipsum Ut dolor do adipisicing sit dolor dolor amet occaecat dolore quis labore do aute labore nisi labore sunt voluptate sunt in labore consequat labore sit consectetur minim veniam magna laborum nisi sed.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<h4><i class="icomoon-quill"></i> Feature 4</h4>
+						<p>Lorem ipsum Ut dolor do adipisicing sit dolor dolor amet occaecat dolore quis labore do aute labore nisi labore sunt voluptate sunt in labore consequat labore sit consectetur minim veniam magna laborum nisi sed.</p>
+					</div>
+					<div class="col-lg-4">
+						<h4><i class="icomoon-eye"></i> Feature 5</h4>
+						<p>Lorem ipsum Ut dolor do adipisicing sit dolor dolor amet occaecat dolore quis labore do aute labore nisi labore sunt voluptate sunt in labore consequat labore sit consectetur minim veniam magna laborum nisi sed.</p>
+					</div>
+					<div class="col-lg-4">
+						<h4><i class="icomoon-upload2"></i> Feature 6</h4>
+						<p>Lorem ipsum Ut dolor do adipisicing sit dolor dolor amet occaecat dolore quis labore do aute labore nisi labore sunt voluptate sunt in labore consequat labore sit consectetur minim veniam magna laborum nisi sed.</p>
+					</div>
+				</div>
+				<!--h3><a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
 
 				<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
 				<pre><code>$ cd your_repo_root/repo_name
-					$ git fetch origin
-					$ git checkout gh-pages
+$ git fetch origin
+$ git checkout gh-pages
 				</code></pre>
 
 				<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
@@ -51,10 +103,16 @@
 
 				<h3><a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-				<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+				<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p-->
 			</section>
-			<footer class="container">
-				<p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+			<footer class="">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12">
+							<p><small>Hosted on GitHub Pages</small></p>
+						</div>
+					</div>
+				</div>
 			</footer>
 		</div>
 		<script src="javascripts/scale.fix.js"></script>

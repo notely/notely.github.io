@@ -1,0 +1,6 @@
+{
+	"compilyai": {
+		"less": "stylesheets/styles.less",
+		"compress": false
+	}
+}
