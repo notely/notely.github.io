@@ -1,6 +1,14 @@
 @import 'less/variables';
 @import 'less/icomoon';
 
+// Scaffolding
+
+.red {
+	color: @red;
+}
+
+// Mobile view (standard)
+
 body {
 	
 }
@@ -27,13 +35,6 @@ header {
 		bottom: -100px;
 	}
 	
-	@media (min-width: @screen-lg) { 
-		.hero-img {
-			position: absolute;
-			bottom: -387px;
-		}
-	}
-
 }
 
 footer {
@@ -41,4 +42,17 @@ footer {
 	padding: 20px 0;
 	background-color: #eee;
 	border-top: solid 1px #e4e4e4;
+}
+
+// Tablet view
+
+// Desktop view
+
+@media (min-width: @screen-lg) { 
+	header {
+		.hero-img {
+			position: absolute;
+			bottom: -387px;
+		}
+	}
 }

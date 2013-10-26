@@ -1371,6 +1371,9 @@
 .icomoon-IcoMoon:before {
   content: "\e7c2";
 }
+.red {
+  color: #e53e4a;
+}
 .navbar .brand img {
   margin-top: 8px;
   height: 32px;
@@ -1387,15 +1390,15 @@ header .hero-img {
   position: relative;
   bottom: -100px;
 }
-@media (min-width: 1200px) {
-  header .hero-img {
-    position: absolute;
-    bottom: -387px;
-  }
-}
 footer {
   margin-top: 20px;
   padding: 20px 0;
   background-color: #eee;
   border-top: solid 1px #e4e4e4;
+}
+@media (min-width: 1200px) {
+  header .hero-img {
+    position: absolute;
+    bottom: -387px;
+  }
 }
