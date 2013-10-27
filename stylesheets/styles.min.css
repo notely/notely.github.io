@@ -1374,6 +1374,15 @@
 .red {
   color: #e53e4a;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 20px;
+}
 .navbar .brand img {
   margin-top: 8px;
   height: 32px;
@@ -1381,14 +1390,14 @@
 }
 header {
   position: relative;
-  padding-top: 120px;
-  padding-bottom: 100px;
+  padding-top: 60px;
+  padding-bottom: 40px;
   background-color: #eee;
   border-bottom: solid 1px #e4e4e4;
 }
 header .hero-img {
   position: relative;
-  bottom: -100px;
+  bottom: -40px;
 }
 footer {
   margin-top: 20px;
@@ -1397,8 +1406,12 @@ footer {
   border-top: solid 1px #e4e4e4;
 }
 @media (min-width: 1200px) {
+  header {
+    padding-top: 120px;
+    padding-bottom: 100px;
+  }
   header .hero-img {
     position: absolute;
-    bottom: -387px;
+    bottom: -367px;
   }
 }
