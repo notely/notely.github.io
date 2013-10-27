@@ -15,12 +15,26 @@
 		<!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-	</head>
-	<body>
+</head>
+	<body data-spy="scroll" data-target=".nav.navbar-nav" data-offset="60">
 		<div class="wrapper">
 			<div class="navbar navbar-default navbar-fixed-top">
 				<div class="container">
-					<a class="brand"><img src="images/Logo-text.png" alt=""></a>
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="brand"><img src="images/Logo-text.png" alt=""></a>
+					</div>
+					<div class="collapse navbar-collapse navbar-ex1-collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li><a href="#about">About</a></li>
+							<li><a href="#features">Features</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
 				</div>
 			</div>
 			<header class="">
@@ -37,18 +51,8 @@
 			</header>
 			<section class="container">
 				<div class="row">
-					<!-- <div class="col-lg-12">
-						<h2>About Notely</h2>
-						<blockquote>
-							<p>If you are like me you look at hundreds of web pages every day. If so haven't you sometimes felt like you just wanted to sketch down a note about the page really quick?</p>
-							<p>Sometimes it's because you are reviewing the page for some client. Or sometimes you just want to take a note related to a specific web page so that you keep your busy mind together when researching something.</p>
-							<p>I really felt the need of some kind of tool, so I tried a lot of different tools. I didn't really fall in love with any of them. Some tools makes it possible to grab the page from the browser and then annotate it. But then you leave the browser where you spend the most of your time. Other tools made it possible to add notes within the page, but then they where in the way when you didn't want to see them. Because of these reasons I created Notely.</p>
-							<p>But the journey doesn't stop here, now I want you to help me to improve Notely so it fits your needs as well.</p>
-							<small>Richard W&aring;lander, <cite title="The Creator">The Creator</cite></small>
-						</blockquote>
-					</div> -->
 					<div class="col-sm-12 col-lg-12">
-						<h2>About Notely</h2>
+						<h2 id="about">About Notely</h2>
 					</div>
 					<div class="clearfix visible-sm visible-lg"></div>
 					<div class="col-sm-6 col-ls-6">
@@ -78,7 +82,7 @@
 				</div>
 				<div class="row">
 					<div class="col-lg-12">
-						<h2>Features</h2>
+						<h2 id="features">Features</h2>
 					</div>
 				</div>
 				<div class="row">
@@ -128,6 +132,7 @@
 			</footer>
 		</div>
 		<script src="javascripts/scale.fix.js"></script>
-
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.0/js/bootstrap.min.js"></script>
 	</body>
 </html>
