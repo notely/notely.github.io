@@ -1,0 +1,23 @@
+---
+layout: blog
+title: "Notely - Blog"
+---
+
+{% for post in site.posts %}
+
+<div class="row">
+	<div class="col-sm-12 heroimg">
+		<a href="{{ post.url }}"><img src="{{ post.heroimg }}" alt="" class="img-responsive" style="margin: auto;"></a>
+	</div>
+	<div class="col-sm-8 col-sm-offset-2">
+		<section class="post-preview">
+			<a href="{{ post.url }}" class="header"><h2>{{ post.title }}</h2></a>
+			<small>{{ post.date | date: "%a, %b %d, %Y" }}</small><br><br>
+			<div class="text-muted">{{ post.excerpt }}</div>
+			<div><p><a href="{{ post.url }}">Read more</a></p></div>
+		</section>
+	</div>
+	<div class="clearfix visible-sm"></div>
+</div>
+
+{% endfor %}
