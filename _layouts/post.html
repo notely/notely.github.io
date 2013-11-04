@@ -2,14 +2,23 @@
 layout: blog
 ---
 <div class="row">
-	<div class="col-sm-12 heroimg">
-		<img src="{{ page.heroimg }}" alt="" class="img-responsive" style="margin: auto;">
-	</div>
+	{% if page.heroimg %}
+		<div class="col-sm-12 heroimg">
+			<img src="{{ page.heroimg }}" alt="" class="img-responsive" style="margin: auto;">
+		</div>
+	{% endif %}
 	<div class="col-sm-8 col-sm-offset-2">
 		<section class="post">
 			<!--h2>{{ page.title }}</h2-->
-			<small>{{ page.date | date: "%a, %b %d, %Y" }}</small><br><br>
-			<div class="text-muted">{{ page.content }}</div>
+			<small class="text-muted">{{ page.date | date: "%a, %b %d, %Y" }} - {{ page.author }}</small><br><br>
+			<div class="">{{ content }}</div>
+			<div class="text-muted">
+				<i class="icon-tags pull-left"></i><ul class="list-inline">
+					{% for cat in page.categories %}
+						<li>{{cat}}</li>
+					{% endfor %}
+				</ul>
+			</div>
 		</section>
 		<section class="social">
 			<div class="fb-like" data-href="{{ site.url }}{{ page.url }}" data-width="The pixel width of the plugin" data-height="The pixel height of the plugin" data-colorscheme="light" data-layout="button_count" data-action="like" data-show-faces="false" data-send="false"></div>&nbsp;

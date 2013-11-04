@@ -3,7 +3,6 @@ layout: post
 title: "Test Notely Blog"
 date:   2013-11-04 11:40:54
 categories: test
-heroimg: "http://placehold.it/1200x600"
 ---
 
 Lorem ipsum Non adipisicing occaecat cupidatat sint deserunt adipisicing dolor ad nisi non officia deserunt qui ullamco voluptate eiusmod eiusmod non ad veniam dolor anim incididunt pariatur proident sint quis ut irure ullamco non exercitation dolor eu minim sed nisi cupidatat Excepteur ut culpa tempor ad velit consequat reprehenderit esse consectetur eiusmod non do sed et irure sed sunt aliqua ullamco in nisi minim cillum voluptate eu sed sed in enim commodo cupidatat sed et eu ex nulla exercitation voluptate exercitation ut Excepteur tempor eu et dolore Excepteur dolore magna id occaecat do Excepteur et qui Ut dolore do cillum dolore exercitation ad ex 

@@ -1,0 +1,52 @@
+.blog {
+	
+	.blogheader {
+		padding-bottom: 20px;
+
+		h1 {
+			color: #ccc;
+			text-shadow: 0 1px 0 #f4f4f4;
+			font-size: 36px;
+		}
+	} 
+
+	.post-preview a.header {
+		color: #333;
+	}
+
+	.post-preview a.header:hover {
+		color: #666;
+		text-decoration: none;
+	}
+
+	.heroimg {
+		margin-top: 20px;
+	}
+
+	@media (min-width: @screen-lg) { 
+		.blogheader {
+			padding-bottom: 100px;
+			h1 {
+				font-size: 44px;
+			}
+		}
+
+		.heroimg {
+			margin-top: 80px;
+		}
+
+		.post,
+		.post-preview {
+			margin-top: 80px;
+		}
+
+		.post-preview,
+		.social {
+			margin-bottom: 80px;
+		}
+	}
+
+	.social {
+		margin-top: 20px;
+	}
+}

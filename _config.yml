@@ -3,3 +3,5 @@ url: "http://notely.github.io"
 paginate: 5
 paginate_path: "blog/page:num"
 permalink: "blog/:categories/:title.html"
+markdown: maruku
+markdown_ext: markdown,mkd,mkdn,md
