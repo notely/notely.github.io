@@ -1433,6 +1433,9 @@ footer {
 .blog .heroimg {
   margin-top: 20px;
 }
+.blog .post {
+  margin-top: 20px;
+}
 @media (min-width: 1200px) {
   .blog .blogheader {
     padding-bottom: 100px;

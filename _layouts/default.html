@@ -9,27 +9,18 @@
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootswatch/3.0.0/readable/bootstrap.min.css">
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
-	<link rel="stylesheet" href="/stylesheets/pygment_trac.css">
-	<link rel="stylesheet" href="/stylesheets/styles.min.css">
+	<link rel="stylesheet" href="stylesheets/pygment_trac.css">
+	<link rel="stylesheet" href="stylesheets/styles.min.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<!--[if lt IE 9]>
 		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 </head>
-	<body data-spy="scroll" data-target=".nav.navbar-nav" data-offset="60" class="blog">
+	<body data-spy="scroll" data-target=".nav.navbar-nav" data-offset="60">
 		<div class="wrapper">
 			{% include header.html %}
-			<header class="blogheader">
-				<div class="container">
-					<div class="col-lg-12" style="text-align: center;">
-						<h1>{{page.title}}</h1>
-					</div>
-				</div>
-			</header>
-			<section class="container">
-				{{content}}
-			</section>
-			{% include footer-blog.html %}
+			{{content}}
+			{% include footer.html %}
 		</div>
 		<script src="javascripts/scale.fix.js"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
